@@ -1644,6 +1644,21 @@
   "resolved" "https://registry.npmmirror.com/@vue/web-component-wrapper/-/web-component-wrapper-1.3.0.tgz"
   "version" "1.3.0"
 
+"@vueuse/core@^4.9.0":
+  "integrity" "sha512-vkGB6T9IgsdvbEyEVLaNu+JlMXonqx/mUX5El1u252ZTOa9khsVIAWWEMfxFyXz245V2hJi+O+TZv6rwyHbOLg=="
+  "resolved" "https://registry.npmmirror.com/@vueuse/core/-/core-4.9.0.tgz"
+  "version" "4.9.0"
+  dependencies:
+    "@vueuse/shared" "4.9.0"
+    "vue-demi" "latest"
+
+"@vueuse/shared@4.9.0":
+  "integrity" "sha512-u5bSe39llw2DjGerZjFK/jv04sF3G1BX5t4aRat1s+9hzm8mEB55uorqA3VxCgTFMNyc0sactZhj6YIzYdG0dg=="
+  "resolved" "https://registry.npmmirror.com/@vueuse/shared/-/shared-4.9.0.tgz"
+  "version" "4.9.0"
+  dependencies:
+    "vue-demi" "latest"
+
 "@webassemblyjs/ast@1.11.1":
   "integrity" "sha512-ukBh14qFLjxTQNTXocdyksN5QdM28S1CxHt2rdskFyL+xFV7VremuBLVbmCePj+URalXBENx/9Lm7lnhihtCSw=="
   "resolved" "https://registry.npmmirror.com/@webassemblyjs/ast/-/ast-1.11.1.tgz"
@@ -6628,6 +6643,11 @@
   "resolved" "https://registry.npmmirror.com/vue-cli-plugin-style-resources-loader/-/vue-cli-plugin-style-resources-loader-0.1.5.tgz"
   "version" "0.1.5"
 
+"vue-demi@latest":
+  "integrity" "sha512-BREuTgTYlUr0zw0EZn3hnhC3I6gPWv+Kwh4MCih6QcAeaTlaIX0DwOVN0wHej7hSvDPecz4jygy/idsgKfW58Q=="
+  "resolved" "https://registry.npmmirror.com/vue-demi/-/vue-demi-0.12.5.tgz"
+  "version" "0.12.5"
+
 "vue-eslint-parser@^8.0.1":
   "integrity" "sha512-dzHGG3+sYwSf6zFBa0Gi9ZDshD7+ad14DGOdTLjruRVgZXe2J+DcZ9iUhyR48z5g1PqRa20yt3Njna/veLJL/g=="
   "resolved" "https://registry.npmmirror.com/vue-eslint-parser/-/vue-eslint-parser-8.3.0.tgz"
@@ -6675,7 +6695,7 @@
   "resolved" "https://registry.npmmirror.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.2.13", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@3.2.33":
+"vue@^2 || ^3.2.13", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.0.2", "vue@^3.2.0", "vue@^3.2.13", "vue@3.2.33":
   "integrity" "sha512-si1ExAlDUrLSIg/V7D/GgA4twJwfsfgG+t9w10z38HhL/HA07132pUQ2KuwAo8qbCyMJ9e6OqrmWrOCr+jW7ZQ=="
   "resolved" "https://registry.npmmirror.com/vue/-/vue-3.2.33.tgz"
   "version" "3.2.33"
