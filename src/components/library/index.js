@@ -9,6 +9,8 @@ import defaultImg from '@/assets/images/200.png'
 // import XtxMore from './xtx-more.vue'
 // import XtxBread from './xtx-bread.vue'
 // import XtxBreadItem from './xtx-bread-item.vue'
+
+import Message from './Message'
 // context(目录路径，是否加载子目录，加载文件的匹配正则)
 const importFn = require.context('./', false, /\.vue$/)
 
@@ -32,6 +34,9 @@ export default {
 
     // 定义指令
     defineDirective(app)
+
+    // 定义一个原型函数
+    app.config.globalProperties.$message = Message
   }
 }
 
